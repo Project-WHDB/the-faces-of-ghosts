@@ -4,86 +4,87 @@
 
 # this is a community effort- cant be taking the credit.
 head 0
-dyn 115499438051492 face 25321961 # Friendly Grin
-dyn 15554865353 face 20722130 # Shiny Teeth
-dyn 13682084865 face 6531983163 # Award-Winning Smile
-dyn 15093427659 face 14861743 # :P
-dyn 15381533776 face 26260927 # Scarecrow
-dyn 16042049101 face 236399287 # Happy Wink
-dyn 16041877976 face 7317793 # Good Intentioned
-dyn 15548514852 face 30394850 # Awesome Face
-dyn 15555890394 face 7074729 # Glee
-dyn 14193662834 face 391496223 # Big Sad Eyes
-dyn 13822758815 face 8329686 # Sinister
-dyn 11308884165 face 20418658 # Err...
-dyn 13820838786 face 173789324 # Not Sure If...
-dyn 13822633229 face 150182466 # Huh?
-dyn 14478101144 face 7317765 # Slick Fang aka Slickfang
-dyn 13692956122 face 209994929 # Suspicious
-dyn 11180212350 face 4018617474 # Classic Male Face
-dyn 14525047012 face 7506141 # It's Go Time!
-dyn 13821330310 face 15637848 # -_-
-dyn 11163789916 face 616380929 # The Winning Smile
-dyn 11236434712 face 7074764 # Chill
-dyn 14193774321 face 14193774321 # :-/
-dyn 14205261998 face 49045351 # Monster Face
-dyn 13693003885 face 20298988 # Puck
-dyn 13692947484 face 8560971 # Stare
-dyn 14483837205 face 20337343 # Disbelief
-dyn 14205289572 face 7317773 # :-o (No Nose)
-dyn 13823337209 face 15324577 # >_<
-dyn 13682108684 face 29532363 # Vampire
-dyn 14193509240 face 12467159 # Ghostface
-dyn 14719537379 face 15432080 # :3
-dyn 12946305202 face 162068415 # YAAAWWN
-dyn 12954264879 face 209995366 # Joyful Smile
-dyn 13675180453 face 2222771916 # Hold It In
-dyn 13821486499 face 28999228 # Joyous Surprise
-dyn 13682077493 face 10907551 # Dizzy Face
-dyn 13692975981 face 616381207 # Friendly Smile
-dyn 13702692127 face 32058239 # So Funny
-dyn 14193608834 face 14030577 # I Hate Noobs
-dyn 12939347925 face 26424808 # Know-It-All Grin
-dyn 13702615195 face 19398554 # Grr!
-dyn 13691995281 face 21635565 # Heeeeeey...
-dyn 14193899807 face 15366173 # ^_^
-dyn 14474232253 face 7074864 # Winky
-dyn 14532846222 face 599913343 # Skeptic
-dyn 13692999952 face 10907549 # Finn McCool
-dyn 12937095639 face 18151826 # :]
-dyn 13823254076 face 32723404 # I <3 New Site Theme
-dyn 13675083217 face 7074893 # Drool
-dyn 13682064263 face 406000730 # Happy :D
-dyn 12945410659 face 30394484 # Braces
-dyn 11308945948 face 7074786 # Check It
-dyn 15381635341 face 7075502 # Lazy Eye
-dyn 15381595196 face 23932048 # Awkward....
-dyn 12930215322 face 301826803 # Lin's Face
+dyn 115499438051492 face 25321744 # Friendly Grin
+dyn 15554865353 face 20722053 # Shiny Teeth
+dyn 13682084865 face 6531805594 # Award-Winning Smile
+dyn 15093427659 face 14861556 # :P
+dyn 15381533776 face 26260786 # Scarecrow
+dyn 16042049101 face 236455674 # Happy Wink
+dyn 16041877976 face 7317606 # Good Intentioned
+dyn 15548514852 face 30394849 # Awesome Face
+dyn 15555890394 face 7074712 # Glee
+dyn 14193662834 face 629933140 # Big Sad Eyes
+dyn 13822758815 face 8329434 # Sinister
+dyn 11308884165 face 20418518 # Err...
+dyn 13820838786 face 168332209 # Not sure if...
+dyn 13822633229 face 150070505 # Huh?
+dyn 14478101144 face 7317591 # Slickfang
+dyn 13692956122 face 209715003 # Suspicious
+dyn 11180212350 face 3994344171 # Classic Male Face
+dyn 14525047012 face 7506025 # It's Go Time!
+dyn 13821330310 face 15637705 # -_-
+dyn 11163789916 face 616395480 # The Winning Smile
+dyn 11236434712 face 7074749 # Chill
+dyn 14193774321 face 7075459 # :-/
+dyn 14205261998 face 49045252 # Monster Face
+dyn 13693003885 face 20298933 # Puck
+dyn 13692947484 face 8560915 # Stare
+dyn 14483837205 face 20337265 # Disbelief
+dyn 14205289572 face 7317691 # :-o
+dyn 13823337209 face 15324447 # >_<
+dyn 13682108684 face 29532362 # Vampire
+dyn 14193509240 face 12466911 # Ghostface
+dyn 14719537379 face 15431991 # :3
+dyn 12946305202 face 161124757 # YAAAWWN.
+dyn 12954264879 face 209713384 # Joyful Smile
+dyn 13675180453 face 2222767231 # Hold It In
+dyn 13821486499 face 28999175 # Joyous Surprise
+dyn 13682077493 face 10749463 # Dizzy Face
+dyn 13692975981 face 616394568 # Friendly Smile
+dyn 13702692127 face 32058103 # So Funny
+dyn 14193608834 face 14030506 # I Hate Noobs
+dyn 12939347925 face 26424652 # Know-It-All Grin
+dyn 13702615195 face 19398553 # Grr!
+dyn 13691995281 face 21635489 # Heeeeeey...
+dyn 14193899807 face 15365479 # ^_^
+dyn 14474232253 face 7074856 # Winky
+dyn 14532846222 face 31117192 # Skeptic
+dyn 13692999952 face 10749456 # Finn McCool
+dyn 12937095639 face 18151722 # :]
+dyn 13823254076 face 32723156 # I <3 New Site Theme
+dyn 13675083217 face 7074882 # Drool
+dyn 13682064263 face 406035320 # Happy :D
+dyn 12945410659 face 30394483 # Braces
+dyn 11308945948 face 7074780 # Check It
+dyn 15381635341 face 7075492 # Lazy Eye
+dyn 15381595196 face 23931977 # Awkward....
+dyn 12930215322 face 292668540 # Lin's Face
 dyn 10638267973 face 0 # Stevie Standard
-dyn 15938951781 face 7699174 # Silly Fun
-dyn 11308682721 face 25166274 # Squiggle Mouth
-dyn 11244608373 face 12145366 # Freckles
-dyn 12936972483 face 7987180607 # Big Grin - Tai Verdes
-dyn 12936650534 face 7893455671 # Cat Eye - Zara Larsson
-dyn 11159990982 face 4018627046 # Classic Female Face
-dyn 13692793711 face 5917459717 # Smil Nas X - Lil Nas X (LNX)
-dyn 14478328247 face 7893460486 # Glittering Eye - Zara Larsson
-dyn 14193299178 face 7657646351 # Butterfly Wink - Lil Nas X (LNX)
-dyn 12937204578 face 226217449 # Laughing Fun
-dyn 13820744684 face 416846300 # Anime Surprise
-dyn 11822739674 face 209994875 # Stay Positive aka Smiling Girl
-dyn 12992668217 face 22877700 # Whistle
-dyn 13692942131 face 15470849 # Hut Hut Hike!
-dyn 14193559599 face 14516578 # Sniffles
-dyn 14525311372 face 15885121 # Cutiemouse
-dyn 10725626210 face 86487766 # Woman Face
+dyn 15938951781 face 7699086 # Silly Fun
+dyn 11308682721 face 25165947 # Squiggle Mouth
+dyn 11244608373 face 12145059 # Freckles
+dyn 12936972483 face 7987146198 # Big Grin - Tai Verdes
+dyn 12936650534 face 7893435035 # Cat Eye - Zara Larsson
+dyn 11159990982 face 3994345447 # Classic Female Face
+dyn 13692793711 face 5924588534 # Smil Nas X
+dyn 14478328247 face 7893438453 # Glittering Eye
+dyn 14193299178 face 7657640018 # Butterfly Wink
+dyn 12937204578 face 226216895 # Laughing Fun
+dyn 13820744684 face 416829065 # Anime Surprise
+dyn 11822739674 face 209713952 # Smiling Girl
+dyn 12992668217 face 22877631 # Whistle
+dyn 13692942131 face 15470573 # Hut Hut Hike!
+dyn 14193559599 face 14516479 # Sniffles
+dyn 14525311372 face 15885042 # Cutiemouse
+dyn 10725626210 face 83022608 # Woman Face
 dyn 10723855306 face 0 # Devon Default
-dyn 14484001930 face 8329679 # Stitchface
-dyn 13821263793 face 406001167 # ROAR!!!
-dyn 10725826963 face 86487700 # Man Face
-dyn 18714367431 face 86487700 # Legendary Sky Champion Head (Man Face)
+dyn 14484001930 face 8329438 # Stitchface
+dyn 13821263793 face 405704879 # ROAR!!!
+dyn 10725826963 face 83017053 # Man Face
+dyn 18714367431 face 83017053 # Legendary Sky Champion Head
 dyn 10687288296 face 0 # Dylan Default
-dyn 11822635053 face 4637244809 # Dennis aka Classic Male v2 Face
-dyn 15093144795 face 4637291815 # Kenneth aka NeoClassic Male v2 Face
-dyn 12945228337 face 4637266368 # Lindsey aka Classic Female v2 Face
-dyn 13253943097 face 4637166178 # Cindy aka NeoClassic Female v2 Face
+dyn 11822635053 face 4637450017 # Classic Male v2
+dyn 15093144795 face 4588498182 # NeoClassic Male v2
+dyn 12945228337 face 4586610741 # Classic Female v2
+dyn 13253943097 face 4588499007 # NeoClassic Female v2
+dyn 0 face 0
