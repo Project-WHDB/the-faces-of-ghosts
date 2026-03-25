@@ -3,7 +3,6 @@
 # https://devforum.roblox.com/t/facial-unification-convert-dynamic-heads-to-their-classic-format/4312162
 
 # this is a community effort- cant be taking the credit.
-
 head 0
 dyn 115499438051492 face 25321961 # Friendly Grin
 dyn 15554865353 face 20722130 # Shiny Teeth
@@ -61,6 +60,8 @@ dyn 15381635341 face 7075502 # Lazy Eye
 dyn 15381595196 face 23932048 # Awkward....
 dyn 12930215322 face 301826803 # Lin's Face
 dyn 10638267973 face 0 # Stevie Standard
+
+dyn 131920301555800 face 83017053 # ilucere's tiny addition: man face
 
 head 86498113
 dyn 15938951781 face 7699174 # Silly Fun
