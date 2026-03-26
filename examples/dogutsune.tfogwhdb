@@ -1,8 +1,16 @@
-# reformatted by ChatGPT from https://github.com/Dawgra/Facial-Unification/blob/main/Content/ToFace.luau
-# super big thanks to Dogutsune 
-# https://devforum.roblox.com/t/facial-unification-convert-dynamic-heads-to-their-classic-format/4312162
+# super big thanks to Dogutsune: https://github.com/Dawgra/Facial-Unification/
 
-# this is a community effort- cant be taking the credit.
+# at first, this script used Dogutsune's list of dynamic heads -> classic faces
+# https://devforum.roblox.com/t/facial-unification-convert-dynamic-heads-to-their-classic-format/4312162
+# however, now it only uses the dynamic head id's from his code.
+# his code used the official roblox face id's (catalogue-assets, not decals).
+# i replaced them with their corresponding decals uploaded by Roblox.
+# my system uses Roblox's decals of the faces instead of the face ids because user-uploaded dynamic faces wouldn't be as seamlessly replacable in a catalogue-asset-only implementation of this system
+# i.e. there are no classic face id's for user-uploaded faces as opposed to past roblox-uploaded faces. 
+# also eventually, these decals will have to be manually uploaded by the community, because i wouldn't trust roblox with owning the decals.
+
+# but yeah, this is a community effort- cant be taking the credit.
+
 head 0
 dyn 115499438051492 face 25321744 # Friendly Grin
 dyn 15554865353 face 20722053 # Shiny Teeth
