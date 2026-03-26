@@ -5,6 +5,8 @@
 # however, now it only uses the dynamic head id's from his code.
 # his code used the official roblox face id's (catalogue-assets, not decals).
 # i replaced them with their corresponding decals uploaded by Roblox.
+######## list used: https://create.roblox.com/store/asset/97958566568465/All-Classic-Faces which is is my modification of https://create.roblox.com/store/asset/102647482553352/All-roblox-classic-faces-pack
+
 # my system uses Roblox's decals of the faces instead of the face ids because user-uploaded dynamic faces wouldn't be as seamlessly replacable in a catalogue-asset-only implementation of this system
 # i.e. there are no classic face id's for user-uploaded faces as opposed to past roblox-uploaded faces. 
 # also eventually, these decals will have to be manually uploaded by the community, because i wouldn't trust roblox with owning the decals.
@@ -95,4 +97,3 @@ dyn 11822635053 face 4637450017 # Classic Male v2
 dyn 15093144795 face 4588498182 # NeoClassic Male v2
 dyn 12945228337 face 4586610741 # Classic Female v2
 dyn 13253943097 face 4588499007 # NeoClassic Female v2
-dyn 0 face 0
