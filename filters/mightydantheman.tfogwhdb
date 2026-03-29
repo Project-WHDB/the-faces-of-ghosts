@@ -2,6 +2,7 @@
 
 # DynamicHeads.lua from here was used:
 # https://devforum.roblox.com/t/dynamic-head-classic-face-automatic-conversion-ugc-support-early-testing/4314228
+# it was then mapped to the 'decalsOfAllFaces.md' in this repo using ai, and then formatted w/ ai
 
 dyn 10725626210 face 83022608 # Woman Face
 dyn 10725826963 face 83017053 # Man Face
