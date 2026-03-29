@@ -23,7 +23,7 @@ It uses HTTP requests to retrieve a filter list of dynamic faces and their repla
 
 ___
 ## Supported Functionality
-- Replace Dynamic Heads!
+- Replace Dynamic Heads
 - UGC Support (strongly inspired by MightyDanTheMan)
 - Functionality Overriding
 - Filter Lists or JSON
@@ -38,6 +38,13 @@ ___
 - Recalculation on `Humanoid.ApplyDescriptionFinished`
 - Version Checking
 - Sharing of HTTP-Retrieved Filter Lists w/ Other Servers (`cfg.loveThyNeighbor`; federated mode)
+___
+## Filter Lists
+sorted by trust level
+
+| Name | Creator | Link | Trust Level | Notes |
+| dogutsune's list | ilucere | ... | 10 | compiled and reformatted by ilucere |
+| mightydantheman's list | ilucere | ... | 10 | compiled and reformatted by ilucere |
 ___
 
 If used in your game(s), consider crediting "WHDB." Credit can be in the form of a small footer, in the credits of your game, or anywhere else- it does not necessarily need clear visbility. This is to spread influence.
