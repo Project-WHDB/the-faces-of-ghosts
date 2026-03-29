@@ -1,0 +1,535 @@
+# massive thank you to mightydantheman
+
+# DynamicHeads.lua from here was used:
+# https://devforum.roblox.com/t/dynamic-head-classic-face-automatic-conversion-ugc-support-early-testing/4314228
+
+dyn 10725626210 face 83022608 # Woman Face
+dyn 10725826963 face 83017053 # Man Face
+dyn 11308945948 face 7074780 # Check It
+dyn 11159990982 face 3994345447 # Classic Female Face
+dyn 11163789916 face 616395480 # The Winning Smile
+dyn 11308682721 face 25165947 # Squiggle Mouth
+dyn 11244608373 face 12145059 # Freckles
+dyn 11308884165 face 20418518 # Err...
+dyn 11236434712 face 7074749 # Chill
+dyn 11180212350 face 3994344171 # Classic Male Face
+dyn 14719537379 face 15431991 # :3
+dyn 13692975981 face 616394568 # Friendly Smile
+dyn 14532846222 face 31117192 # Skeptic
+dyn 12939347925 face 26424652 # Know-It-All Grin
+dyn 13675083217 face 7074882 # Drool
+dyn 12945410659 face 30394483 # Braces
+dyn 15938951781 face 7699086 # Silly Fun
+dyn 13682084865 face 6531805594 # Award-Winning Smile
+dyn 12954264879 face 209713384 # Joyful Smile
+dyn 13682064263 face 406035320 # Happy :D
+dyn 12992668217 face 22877631 # Whistle
+dyn 13821330310 face 15637705 # --
+dyn 13675180453 face 2222767231 # Hold It In
+dyn 13821486499 face 28999175 # Joyous Surprise
+dyn 13243990439 face 12145229 # Oh Deer
+dyn 14484001930 face 8329438 # Stitchface
+dyn 13823337209 face 15324447 # ><
+dyn 13820838786 face 168332209 # Not Sure If...
+dyn 13682108684 face 29532362 # Vampire
+dyn 13692999952 face 10749456 # Finn McCool
+dyn 14193899807 face 15365479 # ^^
+dyn 13692956122 face 209715003 # Suspicious
+dyn 13702692127 face 32058103 # So Funny
+dyn 14525311372 face 15885042 # Cutiemouse
+dyn 13821263793 face 405704879 # ROAR!!!
+dyn 13822633229 face 150070505 # Huh?
+dyn 13692947484 face 8560915 # Stare
+dyn 13702615195 face 19398553 # Grr!
+dyn 13691995281 face 21635489 # Heeeeeey...
+dyn 13823254076 face 32723156 # I <3 New Site Theme
+dyn 13820744684 face 416829065 # Anime Surprise
+dyn 13682077493 face 10749463 # Dizzy Face
+dyn 14483837205 face 20337265 # Disbelief
+dyn 13822758815 face 8329434 # Sinister
+dyn 14193608834 face 14030506 # I Hate Noobs
+dyn 14474232253 face 7074856 # Winky
+dyn 14193662834 face 629933140 # Big Sad Eyes
+dyn 14193509240 face 12466911 # Ghostface
+dyn 15554865353 face 20722053 # Shiny Teeth
+dyn 13692793711 face 5924588534 # Smil Nas X - Lil Nas X (LNX)
+dyn 13693003885 face 20298933 # Puck
+dyn 14205261998 face 49045252 # Monster Face
+dyn 15093427659 face 14861556 # :P
+dyn 14193774321 face 7075459 # :-/
+dyn 13692942131 face 15470573 # Hut Hut Hike!
+dyn 14525047012 face 7506025 # It's Go Time!
+dyn 15548514852 face 30394849 # Awesome Face
+dyn 14205289572 face 7317691 # :-o
+dyn 16041877976 face 7317606 # Good Intentioned
+dyn 14193559599 face 14516479 # Sniffles
+dyn 115499438051492 face 25321744 # Friendly Grin
+dyn 15555890394 face 7074712 # Glee
+dyn 15381595196 face 23931977 # Awkward....
+dyn 16042049101 face 236455674 # Happy Wink
+dyn 15381635341 face 7075492 # Lazy Eye
+dyn 15381533776 face 26260786 # Scarecrow
+dyn 93075310246069 face 42070872 # Epic Face
+dyn 75529910315979 face 1315942144 # Sapphire Gaze
+dyn 77954380016578 face 7074972 # Hex
+dyn 90451873203405 face 66329844 # O_o
+dyn 122448471631157 face 181661839 # Epic Vampire Face
+dyn 105415022511145 face 30265036 # Robot Smile
+dyn 101398692064661 face 7131857 # I Am Not Amused
+dyn 114626389812101 face 405705854 # _ 2.0
+dyn 78394296410622 face 1868469550 # Rainbow Barf Face
+dyn 119735386706067 face 10747810 # Mr. Chuckles
+dyn 111385667345306 face 405706038 # Smug
+dyn 104553759266651 face 3065052750 # Pizza Face
+dyn 131610962654668 face 1772583132 # Upside Down Face
+dyn 97094889503964 face 15470952 # :/
+dyn 121111747672465 face 27134272 # Goofball
+dyn 114031313320461 face 83321898 # Miss Scarlet
+dyn 82341909053958 face 7132019 # Mysterious
+dyn 84930555025211 face 508490451 # Meanie
+dyn 82338169245404 face 823018334 # Sneaky Steve
+dyn 138629924353464 face 376788359 # Chill McCool
+dyn 96195321318701 face 6714123250 # Sparkling's Friendly Wink
+dyn 97428175809716 face 10678229 # Bad Dog
+dyn 107149502146344 face 141728515 # Tired Face
+dyn 89386362415977 face 26619042 # Sick Day
+dyn 71779342356507 face 362050947 # Cheerful Hello
+dyn 86291986306904 face 10747911 # Retro Smiley
+dyn 113533546773742 face 113533546773742 # Green Glowing Eyes
+dyn 133532654455566 face 2565828727 # Arachnid Queen
+dyn 81782708135833 face 16132434 # Red Goof
+dyn 108904425571417 face 21638407 # You ated my caik!
+dyn 91362914612918 face 417334857 # Existential Angst
+dyn 73949495927564 face 2606174048 # Poisonous Beast Mode
+dyn 72145998109548 face 45515545 # Crazy Happy
+dyn 134296548822003 face 8329421 # ZOMG
+dyn 101587769647866 face 6714756103 # Princess Alexis
+dyn 119663302004394 face 620870415 # Tix Vision
+dyn 112540101225834 face 35397044 # Gigglypuff
+dyn 107792872043245 face 21311520 # Sigmund
+dyn 131828746577082 face 16357318 # NetHack Addict
+dyn 97339078460937 face 12777582 # Blerg!
+dyn 132476388130903 face 280987381 # Super Happy Joy
+dyn 84924368416600 face 1315936169 # Winning Smile
+dyn 133345802828839 face 22828283 # Wink-Blink
+dyn 106068367626354 face 15471076 # :-[
+dyn 82443755934144 face 14405631 # No Z
+dyn 121859443428594 face 7074827 # Classic Vampire
+dyn 138680457018177 face 4019292650 # Sorority Star Face
+dyn 117174509036478 face 66329905 # Singing
+dyn 108552211476238 face 10747371 # .
+dyn 120354556756689 face 405706156 # XD 2.0
+dyn 75548133218243 face 19366214 # Friendly Pirate
+dyn 115023541526893 face 32873288 # Starface
+dyn 108997025427632 face 33321688 # Cheerful Grin
+dyn 138965102069978 face 10749431 # Shy Lady
+dyn 119743588780598 face 7699115 # Sad
+dyn 111481431844333 face 243755928 # Just Trouble
+dyn 85052333733862 face 343187883 # Don't Wake Me Up
+dyn 113711018795336 face 657217430 # Drill Sergeant
+dyn 138526270057654 face 5492600700 # Adorable Puppy
+dyn 117224372626489 face 7075077 # Whatchoo Talkin Bout
+dyn 115176521992817 face 14083319 # Visual Studio Seized Up For 45 Seconds... Again
+dyn 108948147871080 face 1016181246 # Up To Something
+dyn 98353090718045 # O.o 7046277
+dyn 96101353612737 face 10747452 # Skeletar
+dyn 137907115435987 face 258192246 # Tiger Chase Fear Face
+dyn 119875599624033 face 97717261 # iFace
+dyn 128409323974332 face 2568569786 # 8-Bit Heart Face
+dyn 85263717490387 face 277939506 # Furious George
+dyn 118411080877177 face 209714802 # Raig Face
+dyn 131149821595675 face 131149821595675 # Snowman Face
+dyn 90744516180777 face 15177471 # >:3
+dyn 118329081640597 face 209713952 # Rosey Smile
+dyn 86026339949343 face 82837707 # Emperor
+dyn 117501539542427 face 7076053 # Hmmm...
+dyn 127131051897190 face 286951068 # Fawkes Face
+dyn 108225495003775 face 108225495003775 # Sunrise Eyes - Tai Verdes
+dyn 112972242133207 face 150070631 # Awkward Eyeroll
+dyn 77960831532326 face 8560912 # Anguished
+dyn 80776110486364 face 82824027 # Sad Clown
+dyn 86934433811836 face 133360891 # Zombie Face
+dyn 132519437289436 face 7075130 # Fang
+dyn 122765469266038 face 4895360333 # Tsundere Expression
+dyn 89187695892355 face 416829404 # Stink Eye
+dyn 91244610721901 face 51241861 # NOWAI!
+dyn 130601752695489 face 620869273 # Owl
+dyn 95632914046000 face 29347988 # Lady Lashes
+dyn 91653333679335 face 10747652 # eXtreme
+dyn 76072415400788 face 76072415400788 # Embarrassed
+dyn 103949749305375 face 2565825723 # Pop Queen Smilestar Spectacusmile
+dyn 84245194729335 face 10749546 # Silence
+dyn 116760990377048 face 10747387 # Pumpkin Face
+dyn 131574609820714 face 629906620 # Emotionally Distressed Zombie
+dyn 137223968501825 face 629914851 # Sir Rich McMoneyston, III
+dyn 84091302398052 face 7076211 # RAWR!
+dyn 136438505320111 face 7131308 # Sad Zombie
+dyn 134905828551194 face 30394437 # Friendly Cyclops
+dyn 128809793194143 face 478719853 # Quackface McGraw
+dyn 106621308776559 face 9250431 # Concerned
+dyn 74295716469720 face 255828374 # Serious Scar Face
+dyn 131227297250373 face 147144198 # Shocked
+dyn 129943611665392 face 20909031 # Sweat It Out
+dyn 71685666613880 face 7506008 # Blinky
+dyn 140379648114044 face 168332015 # Angry Zombie
+dyn 117652972524262 face 12188129 # Demented Mouse
+dyn 117077018404466 face 8329421 # zOMG Hat Selling!
+dyn 127747170838061 # Classic Goof 7046286
+dyn 102099803638333 face 6714740652 # Super Pink Heart Makeup
+dyn 96928121761099 face 7076096 # Chubs
+dyn 88006692500183 face 88006692500183 # Imagine
+dyn 103887259460345 face 629925029 # Sadfaic
+dyn 132439904394389 face 12145229 # Oh Deer
+dyn 136941665802161 face 150070305 # Awkward Grin
+dyn 106514677750864 face 20010294 # Yawn
+dyn 103691059269905 face 7505989 # I Lack Personal Confidence
+dyn 82444982670683 face 2565818601 # Fashion Face
+dyn 103521036104932 face 158017769 # Classic Alien Face
+dyn 77135714844052 face 35168482 # Exclamation Face
+dyn 107583431008996 face 107583431008996 # Golden Shiny Teeth
+dyn 108310669562716 face 23219775 # Nervous
+dyn 126860430913153 face 508484319 # Slobbery Villain
+dyn 130958239280173 face 21351916 # Downcast
+dyn 138240577354626 face 14123340 # WHAAAaaa!
+dyn 133805065130462 face 147144273 # Bluffing
+dyn 75853796532602 face 238984437 # Sly Guy Face
+dyn 102172570570037 face 14817231 # =)
+dyn 120029647828418 face 16132434 # :D
+dyn 84987410068512 face 9250081 # Mischievous
+dyn 119665103921086 # Spring Bunny 108209955
+dyn 117696810257410 face 419749791 # Absolutely Shocked
+dyn 139584395423101 face 398671601 # Monster Smile
+dyn 95558767721820 face 508485561 # Quijibo
+dyn 132669881188022 face 66329524 # Bored
+dyn 114449177225002 face 295421997 # Too Much Candy
+dyn 91988343407890 face 8329410 # Daring
+dyn 80742243805526 face 478719512 # Poor Man
+dyn 118250789491170 face 10678240 # RAWR Bear
+dyn 97709344552035 face 110287880 # Daring Beard
+dyn 139384042440431 face 255828374 # Serious Red Eye Scar
+dyn 76300505555397 face 3065049688 # THE SOUP IS DRY
+dyn 104654517957580 face 104654517957580 # Facepalm
+dyn 76893962596867 face 22587893 # Fast Car
+dyn 96894500746180 face 96894500746180 # True Love Smile
+dyn 90972421756861 face 10749222 # Meow?
+dyn 132617889550403 face 20643951 # Xtreme Happy
+dyn 76823042879558 face 21439548 # Toughguy
+dyn 88636545139258 face 14123364 # Two Guys on a Boat
+dyn 106939186675661 face 629948559 # ILOVEFOOTBOLL!
+dyn 81215553746040 face 16101613 # Tango
+dyn 111831002498388 face 629923753 # Aghast
+dyn 115609839678858 face 10749503 # Ninja
+dyn 115319552103544 face 29716203 # Thinking
+dyn 128699516652713 face 51241536 # Obvious Wink
+dyn 86901149229225 face 629925953 # Shhh...
+dyn 91533959945278 face 21754586 # Woebegone
+dyn 127362126459173 face 20612916 # Secret Service
+dyn 140599649262491 face 22118943 # Square Eyes
+dyn 134907598627848 face 27861351 # Hilarious
+dyn 81939950914815 face 15395252 # x_x
+dyn 70749170595877 face 2620489144 # Sparkle Time Sparkle Eyes
+dyn 117007534454651 face 419749791 # Unbelievable
+dyn 128202565043011 face 128202565043011 # Friendly Trusting Smile
+dyn 79654074199621 face 1428312511 # Overjoyed Smile
+dyn 74255674039564 face 10678193 # Sly Cat
+dyn 110880830101498 face 66329994 # Disapproving Unibrow
+dyn 104719952469759 face 7131482 # Alright
+dyn 120590400620706 face 19396122 # Jack Frost Face
+dyn 77469189052241 face 29296097 # Daydreaming
+dyn 102859140049594 face 629922352 # Ogre Face
+dyn 76416778074549 face 11913449 # Alien Ambassador
+dyn 99836684360086 face 508488410 # Super Crazy Face
+dyn 75823789962958 face 28118994 # Not Again!
+dyn 138466702852029 face 1868539477 # Rogueish Good Looks
+dyn 129203805231474 face 10749449 # I wuv u
+dyn 119799978322706 face 10678225 # Serious Dog
+dyn 94018341473036 face 7074932 # Uh Oh
+dyn 89282553041208 face 19627641 # Toothless
+dyn 105258761802883 face 15858100 # :-?
+dyn 132589820489691 face 629907657 # Yuck!
+dyn 81366194305125 face 81366194305125 # Really Embarrassed
+dyn 76352361885871 face 6028824880 # Tears of Sorrow
+dyn 134781151861347 face 14812835 # D:
+dyn 136591502467368 face 10526794 # Commando
+dyn 73928678053744 face 629920835 # Masque
+dyn 118096462159798 face 13655958 # Pony Face
+dyn 84767188836438 face 629927480 # Old Man Jenkins
+dyn 80443512686099 face 10747392 # Hypnoface
+dyn 138149915421612 face 16179600 # Semi Colon Open Paren
+dyn 116989289556962 face 3065051594 # Cyanskeleface
+dyn 105077647397657 face 398670843 # Nouveau George
+dyn 79452706365010 face 417335778 # Frightening Unibrow
+dyn 130179304927625 face 667683410 # DDotty Smile
+dyn 73772785740330 face 273874617 # Whuut?
+dyn 126042768882947 face 5848997920 # Performing Mime
+dyn 73697371296507 face 3267472315 # Prideful Smile
+dyn 124694574238407 face 124694574238407 # Angelic
+dyn 77122687009667 face 77122687009667 # It's so beautiful!
+dyn 79137280507855 face 15133335 # :'(
+dyn 98911240700737 face 11913449 # Emerald Ambassador
+dyn 129209511110894 face 478720454 # Grumpy Blox
+dyn 139957873703911 face 386188071 # Blue-eyed Awesome Face
+dyn 97632554224971 face 28878210 # Adoration
+dyn 104160158165911 face 8560901 # Toothy Drool
+dyn 75567560339502 face 115978221 # I Didn't Eat That Cookie
+dyn 106918666353612 face 2176326858 # Otakufaic
+dyn 117433677847771 face 22023001 # Timmy McPwnage
+dyn 122690839724801 face 122690839724801 # Monster Grumpy Face
+dyn 81001942254994 face 904124085 # BiteyMcFace
+dyn 74871478197941 face 22500052 # The Friendly Eviscerator
+dyn 119699517806619 face 27052496 # Raccoon
+dyn 97807348425254 face 8246559242 # Vans Checkerboard Brown Eyes
+dyn 98616662764992 face 4895362922 # Mixologist's Smile
+dyn 129958174465155 face 51241170 # Sunny Fun
+dyn 77117332570238 face 11956455 # Lion
+dyn 120760417283981 face 21796275 # Glory on the Gridiron
+dyn 122186149619860 face 405706600 # Sharpnine's Face of Joy
+dyn 94527522541525 face 5849008243 # Gold Mermaid Visage
+dyn 75416344224272 face 629903805 # Dragonface
+dyn 113558020754996 face 620866423 # Crazy Abstract Artist
+dyn 113956409008483 face 27725380 # Friendly Puppy
+dyn 79558974623236 face 24067663 # Drooling Noob
+dyn 82895419277263 face 10747387 # Pumpkin Face
+dyn 74330451045924 face 10747492 # Redonkulous
+dyn 97352029854318 face 142888113 # Hockey Face
+dyn 130730425836867 face 130730425836867 # Seeing Stars
+dyn 114044636639629 face 34186612 # Disbelief Face
+dyn 135893582954556 face 478731659 # Muttdawg
+dyn 121139755905822 face 15013091 # :-O
+dyn 86356517393251 face 14721752 # Scarecrow Face
+dyn 99138878800007 face 10749405 # The Big Dog
+dyn 96229607001945 face 629929484 # Bad News Face
+dyn 122769501922044 face 34871107 # Magical Dragon
+dyn 102175552451130 face 7699096 # Frightful
+dyn 80691818732783 face 13478066 # Walk the Plank You Scurvy Dogs!
+dyn 79029537488886 face 209712916 # Sharpnine's Face of Disappointment
+dyn 113124428065996 face 27003564 # Old Timer
+dyn 94278862042697 face 3267470325 # Beaming with Pride
+dyn 127661829586979 face 5924592609 # Rodeo Vampire - Lil Nas X (LNX)
+dyn 96928384799133 face 629912441 # Nibbles, Devourer of Worlds
+dyn 79279287546028 face 1315942662 # Squinty Assassin Face
+dyn 121942787157569 face 10749488 # Love
+dyn 119135439550784 face 19958885 # Starry Eyed
+dyn 118662543610463 face 16387598 # >>
+dyn 70555769783156 face 14817231 # =)
+dyn 118274699744337 face 629919997 # Mr. Oinkers
+dyn 92253557119526 face 7075412 # Toothy Grin
+dyn 102987591819834 face 13038224 # Oh Noes Another Dog
+dyn 127741189804655 face 23311760 # Look At My Nose
+dyn 132774756068606 face 3210091014 # Noriko the Gentle Youkai Face
+dyn 118729066248032 face 3210092741 # Chichiri the Wise Youkai Face
+dyn 129727301561515 face 10678215 # Serious Cat
+dyn 87433619747584 face 27412750 # Smith McCool
+dyn 91944236412183 face 15054328 # XD
+dyn 84836644345665 face 7317697 # Chippy McTooth
+dyn 89714007702873 face 28281785 # Pwnda Face
+dyn 112889275366200 face 31317607 # Alien
+dyn 77813715293180 face 583713318 # Pink Wistful Wink
+dyn 95846667626495 face 17137977 # D=
+dyn 119055966769182 face 22588800 # Lightning Speaker
+dyn 112973427227139 face 34673639 # Shutter Shades: The Face
+dyn 122910242953349 face 878944494 # Purple Moonstruck
+dyn 116065815627535 face 1315935475 # Death's Grin
+dyn 85026394710065 face 3210093672 # Eita the Envious Youkai Face
+dyn 116413071612956 face 878945106 # Pink Moonstruck
+dyn 111449516280766 face 629949468 # Bird of Prey
+dyn 72965414089248 face 5849006088 # Zed Face
+dyn 15093144795 face 4588498182 # Neoclassic Male v2 - Face
+dyn 136298162773288 face 2409281591 # Playful Vampire
+dyn 104065003453878 face 129900258 # ROBLOX Madness Face
+dyn 82223146991621 face 84263778542721 # Snowflake Eyes
+dyn 90223980922049 face 26018945 # Yum!
+dyn 75529910315979 face 75529910315979 # Sapphire Gaze
+dyn 139251841457633 face 1213444061 # Catching Snowflakes
+dyn 99892364304434 face 20052028 # Prankster
+dyn 108864005873622 face 209712379 # Blizzard Beast Mode
+dyn 105028880420594 face 7893441222 # Heart Gaze - Zara Larsson
+dyn 125174710850024 face 1772533846 # Blue Ultimate Dragon Face
+dyn 128394984451898 face 583712942 # Blue Wistful Wink
+dyn 128824320785562 face 2225757922 # Radioactive Beast Mode
+dyn 82464300219744 face 260296899 # Orange Trance
+dyn 127688119049205 face 127959433 # Beast Mode
+dyn 133196692848803 face 2568579815 # Snow Queen Smile
+dyn 81345866267964 face 629930519 # Red Tango
+dyn 121015622358176 face 583713594 # Purple Wistful Wink
+dyn 88871634439416 face 110287983 # Evil Skeptic
+dyn 93612956752407 face 179693472 # Red Glowing Eyes
+dyn 80295518297031 face 2222769550 # Green Starry Sight
+dyn 129170691816686 face 7370410419 # Starry Eyes Sparkling
+dyn 114031313320461 face 334655813 # Miss Scarlet
+dyn 129714185728418 face 1191124133 # Golden Bling Braces
+dyn 83506696853331 face 387256104 # Silver Punk Face
+dyn 113079082964778 face 119768621 # Punk Face
+dyn 135342343158385 face 20418584 # Bandage
+dyn 138629924353464 face 138629924353464 # Chill McCool
+dyn 76528359620057 face 440737960 # Pink Galaxy Gaze
+dyn 70816272422225 face 2222768690 # Blue Starry Sight
+dyn 76400441982455 face 22920500 # Troublemaker
+dyn 117567121137597 face 26343132 # Tattletale
+dyn 73941496344773 face 583713423 # Green Wistful Wink
+dyn 86291986306904 face 86291986306904 # Retro Smiley
+dyn 134946036166323 face 24125997 # Zip It!
+dyn 84266319864579 face 8664088085 # Mermaid Mystique
+dyn 113533546773742 face 398676207 # Green Glowing Eyes
+dyn 81782708135833 face 1191121968 # Red Goof
+dyn 139524925599214 face 362047042 # Violet Fang
+dyn 72145998109548 face 72145998109548 # Crazy Happy
+dyn 110555154231205 face 51241479 # Grandma's Lipstick
+dyn 117077018404466 face 16413448 # zOMG Hat Selling!
+dyn 83599404800837 face 119773049 # Green Starface
+dyn 124319560743193 face 8666858645 # Kandi's Sprinkle Face
+dyn 126170423238549 face 380753459 # Green Bubble Trouble
+dyn 131399888304772 face 2620487058 # Crybaby
+dyn 89246662937540 face 108213708 # Egg on your Face
+dyn 91329758638254 face 22070531 # The First Time I Ever Played ROBLOX...
+dyn 125398935000311 face 2222770385 # Violet Starry Sight
+dyn 125494923219947 face 21024598 # Optimist
+dyn 135442682003593 face 835057164 # Blue Amazeface
+dyn 91121970849651 face 324191500 # Blue Eyeroll
+dyn 118863125370148 face 7657648582 # Devil Nas X - Lil Nas X (LNX)
+dyn 86757595823239 face 1428314296 # Blue Rock Star Smile
+dyn 121549276492016 face 1772542456 # Green Ultimate Dragon Face
+dyn 87185302543027 face 19397593 # Rudolph
+dyn 125847656534235 face 25555431 # Freckled Cheeks
+dyn 122184140520797 face 22587827 # Winter
+dyn 107904877242588 face 25975157 # Bling
+dyn 108997025427632 face 108997025427632 # Cheerful Grin
+dyn 11308945948 face 11308945948 # Check It
+dyn 108624000911202 face 23999943 # Mick McCann
+dyn 139285725934591 face 2568609094 # So Super Excited - Blue
+dyn 79464159928696 face 508398801 # Eyes of Emeraldwrath
+dyn 117224372626489 face 117224372626489 # Whatchoo Talkin Bout
+dyn 97795503835788 face 34764373 # The Dog Whisperer
+dyn 95878878196269 face 362047189 # Purple Bubble Trouble
+dyn 91821455094281 face 508489686 # Red Rock Star Smile
+dyn 93993347699240 face 19264782 # Bubble Trouble
+dyn 75928060346586 face 1016179764 # Emerald Evil Eye
+dyn 86211743477998 face 330393309 # Blue Bubble Trouble
+dyn 84053249814299 face 16722374 # Red Fang
+dyn 134179520835910 face 19382647 # Pieface Jellyfreckles
+dyn 131149821595675 face 19396549 # Snowman Face
+dyn 88834524055841 face 440737549 # Blue Galaxy Gaze
+dyn 81805929960774 face 66329788 # Red RAWR
+dyn 118329081640597 face 658751484 # Rosey Smile
+dyn 118158216654463 face 21392803 # Clown School Dropout
+dyn 74755350764511 face 1191123237 # Green Goof
+dyn 86026339949343 face 629917700 # Emperor
+dyn 127011072756234 face 629935400 # Purple Trance
+dyn 114624520946660 face 1191123763 # Blue Goof
+dyn 127131051897190 face 133867453 # Fawkes Face
+dyn 88319671293099 face 31615924 # Mr. Bubbles
+dyn 108225495003775 face 7987150722 # Sunrise Eyes - Tai Verdes
+dyn 82353565383252 face 835060009 # Rose Amazeface
+dyn 80776110486364 face 629934434 # Sad Clown
+dyn 140095450346434 face 416830979 # Yellow Glowing Eyes
+dyn 128745243924127 face 554651972 # Crazybot 10000
+dyn 130601752695489 face 130601752695489 # Owl
+dyn 115071992858237 face 23644832 # Clown Face
+dyn 81709127412958 face 324192486 # Purple Alien
+dyn 128582240186729 face 51241521 # Country Morning
+dyn 76072415400788 face 21272940 # Embarrassed
+dyn 131574609820714 face 131574609820714 # Emotionally Distressed Zombie
+dyn 74785198633210 face 405704912 # Red Serious Scar Face
+dyn 72106136406041 face 629936597 # Green Whatchoo Talkin' Bout
+dyn 105043556367611 face 2568608091 # So Super Excited - Pink
+dyn 108922072075304 face 835059826 # Green Amazeface
+dyn 128809793194143 face 128809793194143 # Quackface McGraw
+dyn 110952399150955 face 324191930 # Pink Shades McCool
+dyn 98152940439813 face 49493144 # Eyes of Crimsonwrath
+dyn 140379648114044 face 140379648114044 # Angry Zombie
+dyn 92706336373080 face 23261768 # Surprise!
+dyn 102099803638333 face 102099803638333 # Super Pink Heart Makeup
+dyn 122135645989195 face 16723441 # Sapphire Drool
+dyn 122404965266342 face 334655293 # Teal Rock Star Smile
+dyn 100855364575418 face 2568605832 # So Super Excited - Purple
+dyn 132405327771462 face 23310996 # Paintball Enthusiast
+dyn 120972839388604 face 280987977 # Mildly Irritated Face
+dyn 88006692500183 face 30394315 # Imagine
+dyn 91125792495525 face 22972635 # Eyes of Everfrost
+dyn 79942600188080 face 440738083 # Purple Galaxy Gaze
+dyn 108845975324525 face 645438093 # Bacon Face
+dyn 125370042563619 face 629946036 # Green Drool Angry Zombie
+dyn 130949348675256 face 1428396343 # Purple Mermaid Princess
+dyn 126119529218185 face 66329597 # Green-eyed Awesome Face
+dyn 73464310198708 face 7737963900 # Isabella
+dyn 123590908487930 face 66329737 # Golden Lightning Speaker
+dyn 107583431008996 face 66319713 # Golden Shiny Teeth
+dyn 109905099175232 face 260296789 # Green Trance
+dyn 80693123152809 face 66329683 # Not So Friendly Eviscerator
+dyn 82457152188114 face 260296642 # Blue Trance
+dyn 126860430913153 face 126860430913153 # Slobbery Villain
+dyn 91208636020591 face 162185210 # Yellow Starface
+dyn 135998911746266 face 554654683 # Madbot 10000
+dyn 138245728055090 face 240961696 # Purple Butterfly Smile
+dyn 113425055554795 face 2830482465 # Ruby Archfey Visage
+dyn 117696810257410 face 2620488318 # Absolutely Shocked
+dyn 129656196322956 face 1016178220 # Crimson Evil Eye
+dyn 87373673637036 face 440737812 # Green Galaxy Gaze
+dyn 129623286431489 face 66329642 # Emerald Laser Vision
+dyn 87840847758855 face 324190505 # Daring Blonde Beard Face
+dyn 94262968291014 face 334655587 # Sneaky Green-Eyed Snake
+dyn 139384042440431 face 494290010 # Serious Red Eye Scar
+dyn 123840740066914 face 162185411 # Crimson Starface
+dyn 114002243812238 face 835060246 # Lavender Amazeface
+dyn 104654517957580 face 30394593 # Facepalm
+dyn 117806770548096 face 629947734 # Eyes of Azurewrath
+dyn 96894500746180 face 362047893 # True Love Smile
+dyn 133012176283814 face 9156244686 # Devilish Smile - 24kGoldn
+dyn 115834462252208 face 119772974 # Blue Starface
+dyn 128699516652713 face 128699516652713 # Obvious Wink
+dyn 78021109822268 face 7389895884 # Sai-eye Tyler Joseph - Twenty One Pilots
+dyn 98437603091460 face 7389918425 # Warpaint Josh Dun - Twenty One Pilots
+dyn 140599649262491 face 140599649262491 # Square Eyes
+dyn 128202565043011 face 402301113 # Friendly Trusting Smile
+dyn 80071849693343 face 1772543614 # Red Ultimate Dragon Face
+dyn 120590400620706 face 120590400620706 # Jack Frost Face
+dyn 92463319737252 face 2830473786 # Torque the Green Orc
+dyn 102859140049594 face 102859140049594 # Ogre Face
+dyn 110772828508993 face 323188972 # Desert Commando
+dyn 70423691706180 face 554654979 # Manicbot 10000
+dyn 119177593930347 face 1016180707 # Golden Evil Eye
+dyn 125721243941416 face 9156233764 # 24kGoldn Face
+dyn 122414949110123 face 29109680 # Trance
+dyn 102042786518422 face 554655304 # Cuckookrazybot 10000
+dyn 118343031819043 face 7369467011 # Bakonette
+dyn 128697568798799 face 362046854 # Eyes of Everflame
+dyn 77572020448942 face 324189860 # Green Super Happy Joy
+dyn 130587659920837 face 1428397734 # Teal Mermaid Queen
+dyn 116989289556962 face 116989289556962 # Cyanskeleface
+dyn 134951159309466 face 508487599 # Sapphire Laser Vision
+dyn 126180654578408 face 16723395 # Ochre Ogre
+dyn 127661829586979 face 7657592485 # Rodeo Vampire - Lil Nas X (LNX)
+dyn 98911240700737 face 66329462 # Emerald Ambassador
+dyn 118470540237243 face 1428315155 # Pink Mermaid Princess
+dyn 85197114341160 face 119773113 # Purple Starface
+dyn 82937850087990 face 6792755141 # Persephone's Girl Glam
+dyn 78993658292671 face 8246562466 # Vans Checkerboard Blue Eyes
+dyn 75416344224272 face 75416344224272 # Dragonface
+dyn 82895419277263 face 82895419277263 # Pumpkin Face
+dyn 101779789483910 face 383607989 # Monarch Butterfly Smile
+dyn 130730425836867 face 27599799 # Seeing Stars
+dyn 71944757803108 face 7737952495 # Mon Cheri Face
+dyn 106518418568131 face 8666737055 # Rainbow Spirit Face
+dyn 127225876992346 face 376786318 # Purple Super Happy Joy
+dyn 139535289947103 face 2830481528 # Sapphire Archfey Visage
+dyn 112889275366200 face 112889275366200 # Alien
+dyn 117575417496017 face 9062608001 # McLaren Smile
+dyn 111385667345306 face 111385667345306 # Smug
+dyn 110586656750267 face 1016178981 # Sapphire Evil Eye
+dyn 105077647397657 face 105077647397657 # Nouveau George
+dyn 126042768882947 face 126042768882947 # Performing Mime
+dyn 128156361613644 face 162185335 # Orange Starface
+dyn 136119456527444 face 2830472766 # Torque the Red Orc
+dyn 124694574238407 face 45083898 # Angelic
+dyn 74640504208201 face 7657592485 # Diamond Grill - Lil Nas X (LNX)
+dyn 77122687009667 face 26674356 # It's so beautiful!
+dyn 139957873703911 face 66329597 # Blue-eyed Awesome Face
+dyn 97699841126721 face 2830481956 # Emerald Archfey Visage
+dyn 122690839724801 face 7737933327 # Monster Grumpy Face
+dyn 76555837397746 face 2830474424 # Torque the Blue Orc
+dyn 14193299178 face 7657640018 # Butterfly Wink - Lil Nas X (LNX)
+dyn 12936650534 face 7893435035 # Cat Eye - Zara Larsson
+dyn 14478328247 face 7893438453 # Glittering Eye - Zara Larsson
+dyn 12936972483 face 7987146198 # Big Grin - Tai Verdes
+dyn 74148129448062 face 9062612645 # McLaren Big Grin
+dyn 111449516280766 face 111449516280766 # Bird of Prey
