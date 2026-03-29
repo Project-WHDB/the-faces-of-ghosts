@@ -16,7 +16,9 @@ We do not agree with Roblox's agenda of stripping the platform of its core ident
 ___
 
 This code is HIGHLY customizable, intended for use in games of any size. It's a simple drag-and-drop into `ServerScriptService`, and by default, everything is configured, ready for production-use.
+
 TFOG's designed with **reliability**, **stability**, **longevity**, **customization**, and **performance** in mind.
+
 It uses HTTP requests to retrieve a filter list of dynamic faces and their replacements off (raw) github (see: examples or filters), or any site that returns plaintext per HTTP request; in other words, an **upstream** filter list. Because of this functionality, the filter auto-updates so long as a contributer changes the upstream filter list. The code itself does not require changing, albeit you will be notified if your version (number) doesn't match the repositories version.
 
 __-
