@@ -167,7 +167,7 @@ sometimes when spawning and applying a head too fast, the avatar becomes `Color3
 #### `forAllNonPlayablesApplyWithDepth: number`
 if `0`, then we get the descendants of the workspace. if greater than `0`, then we get the first `forAllNonPlayablesApplyWithDepth` layers of workspace (for example, if `1`, we get the workspaces children; if `2`, we get the workspaces children and their children).
 
-#### `traverseClassNames: {string}
+#### `traverseClassNames: {string}`
 **traverse through these objects to find a humanoid.**
 
 #### `applyOnlyInFolders: {Instance}`
