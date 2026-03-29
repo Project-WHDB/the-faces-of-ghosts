@@ -34,7 +34,7 @@ ___
 - Replacement of Real Head
 - Folder-inclusion, Humanoid-inclusion, Player-inclusion
 - Adjusts Fake Head
-- Fixes `Color3.new(0, 0, 0)` HumanoidDescription BodyColor
+- Fixes `Color3.new(0, 0, 0)` HumanoidDescription BodyColor Roblox bu
 - Recalculation on `Humanoid.ApplyDescriptionFinished`
 - Version Checking
 - Sharing of HTTP-Retrieved Filter Lists w/ Other Servers (`cfg.loveThyNeighbor`; federated mode)
