@@ -107,7 +107,7 @@ face 2390025
 
 a similar logic applies to the `face` and `dyn` keyword
 
-everyline line, the `put` keyword is signalled, which 'submits' the current line. the current `dynamicHead`, `head`, and `face` is submitted for mapping. manually writing the `put` keyword is not recommended, but is available for one-liners. here's an example of one-liners and the 'submissions' of `put` (in brackets).
+every newline, the `put` keyword is signalled, which 'submits' the current line. the current `dynamicHead`, `head`, and `face` is submitted for mapping. manually writing the `put` keyword is not recommended, but is available for one-liners. here's an example of one-liners and the 'submissions' of `put` (in brackets).
 
 ```py
 # commented-out `puts` are the ones done by newlines
