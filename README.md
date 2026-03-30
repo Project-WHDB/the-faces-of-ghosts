@@ -38,6 +38,7 @@ ___
 - Recalculation on `Humanoid.ApplyDescriptionFinished`
 - Version Checking
 - Sharing of HTTP-Retrieved Filter Lists w/ Other Servers (`cfg.loveThyNeighbor`; federated mode)
+- R6 and R15
 ___
 ## Filter Lists
 sorted by trust level
