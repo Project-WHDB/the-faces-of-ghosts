@@ -25,6 +25,7 @@ for i = 1, #list do
 end
 print(map) -- {["O.o"]=7046277, ["Classic Goof"]=7046286", etc...}
 ```
+edit: don't use `:` as an identifier, use `|`
 
 ___
 ```
