@@ -2,13 +2,13 @@
 Community-driven and Github-based replacement of dynamic heads.
 ___
 
-The Faces of Ghosts (TFOG) is the first entry of the WHDB series, aiming to override Roblox's migration from Classic Faces to Dynamic Heads by forcing all dynamic heads to be replaced with their Classic counterparts. A decal-based Dynamic Head to Classic Face service.
+The Faces of Ghosts (TFOG) is the first entry of the WHDB series, aiming to override Roblox's migration from Classic Faces to Dynamic Heads by forcing all dynamic heads to be replaced with their Classic counterparts. A decal-based Dynamic Head to Classic Face tool.
 
 #### This is **FOSS**
-ANYONE in the world can make edits, rewrite the code, and upload their own modifications. Not only the code, but the filter lists- thats the magic!
+ANYONE in the world can make edits, rewrite the code, and upload their own modifications.
 
 #### This is **COMMUNITY-DRIVEN**
-While a basic filter-list has been provided, it is by no means exhaustive. Susstain the project by forking the basic list and/or making your own, adding extra dynamic heads.
+While a basic filter-list has been provided, it is by no means exhaustive. Sustain the project by forking the basic list and/or making your own, adding extra dynamic heads.
 
 #### This is **NON-COMPLIANT at heart**
 We do not agree with Roblox's agenda of stripping the platform of its core identity. This service is built to last, and is fundamentally unstoppable.
