@@ -227,7 +227,7 @@ completely overrides the head replacement functionality, if you only are in need
 
 ensure you create a value called `modified_head` inside the Humanoid once your function executes.
 
-### `customApplicationFunction: nil, function(dynamicFaceCheck(character, player?), playerAdded(player), descendantAdded(object))
+### `customApplicationFunction: nil, function(dynamicFaceCheck(character, player?), playerAdded(player), descendantAdded(object))`
 
 function for self-managing what humanoid receives the dynamic head changes
 
