@@ -1,0 +1,7 @@
+facesOfGhosts.lua
+    -> runner.lua
+    -> main.lua
+        -> language.lua
+
+runner is a serverscript
+the rest are modulescripts

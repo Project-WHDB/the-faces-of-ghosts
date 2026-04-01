@@ -19,14 +19,14 @@ This code is HIGHLY customizable, intended for use in games of any size. It's a 
 
 TFOG's designed with **reliability**, **stability**, **longevity**, **customization**, **modularity** and **performance** in mind.
 
-It uses HTTP requests to retrieve a filter list of dynamic faces and their replacements off (raw) github (see: examples or filters), or any site that returns plaintext per HTTP request; in other words, an **upstream** filter list. Because of this functionality, the filter auto-updates so long as a contributer changes the upstream filter list. The code itself does not require changing, albeit you will be notified if your version (number) doesn't match the repositories version.
+It uses HTTP requests to retrieve a filter list of dynamic faces and their replacements off (raw) github (see: examples or filters), or any site that returns plaintext per HTTP request; in other words, an **upstream** filter list. Because of this functionality, the filter auto-updates so long as a contributor changes the upstream filter list. The code itself does not require changing, albeit you will be notified if your version (number) doesn't match the repositories version.
 
 ___
 ## Supported Functionality
 - Replace Dynamic Heads
 - UGC Support (strongly inspired by MightyDanTheMan)
 - Functionality Overriding
-- Filter Lists or JSON
+- Filter Lists
   - Recursive Filter Lists (other links inside filter list)
   - Tailored File Format / Beginner-friendly Scripting Language
 - Fix 'Head Height' (NeckRigAttachment)
@@ -37,7 +37,7 @@ ___
 - Fixes `Color3.new(0, 0, 0)` HumanoidDescription BodyColor Roblox bu
 - Recalculation on `Humanoid.ApplyDescriptionFinished`
 - Version Checking
-- Sharing of HTTP-Retrieved Filter Lists w/ Other Servers (`cfg.loveThyNeighbor`; federated mode)
+- Sharing of HTTP-Retrieved Filter Lists w/ Other Servers (`cfg.federate`)
 - R6 and R15
 ___
 ## Filter Lists
