@@ -5,3 +5,5 @@ facesOfGhosts.lua
 
 runner is a serverscript
 the rest are modulescripts
+
+facesOfGhost.lua is parented to serverscriptservice

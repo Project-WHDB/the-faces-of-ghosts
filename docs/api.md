@@ -217,6 +217,9 @@ a theoretical trick. **parent and unparent the bodyColors to reapply it?**
 ### `fixMisloadedBodyColor: boolean`
 sometimes when spawning and applying a head too fast, the avatar becomes `Color3.new(0, 0, 0)`. **should this be fixed?**
 
+### `fixStaticHeadOnDeath: boolean`
+fixes a roblox bug where character instances welded after death (with broken joints i.e. non-ragdolls) cease physics locally. however, this will make the player name and health visible to the player on death (with broken joints)
+
 ### `recalculateOnHumanoidDescriptionApplied: boolean`
 **reapply the head when the humanoid description changes?**
 
@@ -291,6 +294,10 @@ ensure you create a value called `modified_head` inside the Humanoid once your f
 ### `customApplicationFunction: nil, function(dynamicFaceCheck(character, player?), playerAdded(player), descendantAdded(object))`
 
 function for self-managing what humanoid receives the dynamic head changes
+
+### `onStaticHeadFixed: nil, function(character, humanoid, player?)
+
+function for altering the functionality of the static head death fix. can be used to change properties of humanoid, or locally fix the health and name visibility issue
 
 # Other
 

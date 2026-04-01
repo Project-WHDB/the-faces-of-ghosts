@@ -33,8 +33,6 @@ local function checkHttpEnabled()
 	end
 end
 
-
-
 local part0Part1Instances = set{
 	'Weld',
 	'WeldConstraint',
@@ -56,7 +54,6 @@ local defaultFaceMap = {
 	face=cfg.defaultFace,
 	dynamicHead=0,
 }
-
 
 local languageParameters = {
 	filterList = {
@@ -149,7 +146,6 @@ end
 
 
 local filterListCompilation;
-local blockedUGCCompilation;
 
 local marketInfoCache, simpleMarketInfoCache = {}, {}
 local marketInfoLoaded = Instance.new('BindableEvent')
@@ -583,6 +579,23 @@ local function tryBodyColorFix(character)
 	end
 end
 
+local function unbindConnections(connections)
+	for _, v in ipairs(connections) do
+		v:Disconnect()
+	end
+	table.clear(connections)
+end
+
+local function makeWeld(p0, p1, name)
+	local weld = Instance.new('Weld')
+	weld.Parent = p0
+	weld.Part0 = p0
+	weld.Part1 = p1
+	weld.Name = name
+end
+
+
+
 local function replaceHead(character, info, player, singleCompilation)
 	if (not character) then
 		return warn('no character in replaceHead')
@@ -597,6 +610,11 @@ local function replaceHead(character, info, player, singleCompilation)
 		return warn('no head.')
 	end
 	
+	local neckRigAttachment = originalHead:FindFirstChild('NeckRigAttachment')
+	if (cfg.fixNeckRigAttachment and neckRigAttachment) then
+		neckRigAttachment.CFrame = CFrame.new(0, -.5, 0)
+	end
+	
 	if (cfg.delay and cfg.delay > 0) then
 		task.wait(cfg.delay)
 	end
@@ -604,13 +622,6 @@ local function replaceHead(character, info, player, singleCompilation)
 	local humanoid = waitForChildOfClass(character, 'Humanoid')
 	local bodyColors = character:FindFirstChildOfClass('BodyColors')
 	
-	local findPriorFakeHead = character:FindFirstChild(cfg.fakeHeadName)
-	local neckRigAttachment = originalHead:FindFirstChild('NeckRigAttachment')
-	
-	if (cfg.fixNeckRigAttachment and neckRigAttachment) then
-		neckRigAttachment.CFrame = CFrame.new(0, -.5, 0)
-	end
-
 	if (cfg.forceBreakRigsOnDeath) then
 		humanoid.BreakJointsOnDeath = true
 	end
@@ -627,13 +638,15 @@ local function replaceHead(character, info, player, singleCompilation)
 	
 	-- get new head
 	local newHead;
+	local neckBefore;
 	if (cfg.newHeadFunction) then
 		newHead = cfg.newHeadFunction(character, info)
 	else
 		newHead = Instance.new('Part')
 		newHead.Size = Vector3.new(2, 1, 1)
 		newHead.Color = originalHead.Color
-
+		newHead.CanCollide = false
+		
 		local specialMesh = Instance.new('SpecialMesh')
 		specialMesh.Name = cfg.specialMeshName
 		specialMesh.MeshType = Enum.MeshType.Head
@@ -653,19 +666,13 @@ local function replaceHead(character, info, player, singleCompilation)
 
 		if (cfg.useFakeHeadsInstead) then
 			newHead.Name = cfg.fakeHeadName
-
-			newHead.CanCollide = false
 			newHead.CanTouch = false
 			newHead.CanQuery = false
 			newHead.EnableFluidForces = false
 			newHead.AudioCanCollide = false
 			newHead.Massless = true
 
-			local weld = Instance.new('Weld')
-			weld.Parent = newHead
-			weld.Part0 = newHead
-			weld.Part1 = originalHead
-			weld.Name = cfg.fakeHeadWeldName
+			makeWeld(newHead, originalHead, cfg.fakeHeadWeldName)
 		else
 			newHead.Name = 'Head'
 			newHead.CanCollide = false
@@ -675,10 +682,13 @@ local function replaceHead(character, info, player, singleCompilation)
 			while (newHead.Parent ~= character) do newHead.AncestryChanged:Wait() end -- ensure
 			
 			local requiresNeckSignal = humanoid:GetPropertyChangedSignal('RequiresNeck')
+			neckBefore = humanoid.RequiresNeck
 			humanoid.RequiresNeck = false
 			while (humanoid.RequiresNeck) do requiresNeckSignal:Wait() end -- ensure
 		end
 		
+		
+		newHead.Locked = true
 		newHead.CFrame = originalHead.CFrame
 	end
 
@@ -752,30 +762,44 @@ local function replaceHead(character, info, player, singleCompilation)
 	end
 	
 	
-	if (findPriorFakeHead) then
-		findPriorFakeHead:Destroy()
-	end
-	
+	destroyFakeHeadIfApplicable(character)
 	if (cfg.useFakeHeadsInstead) then
-		destroyFakeHeadIfApplicable(character)
 		newHead.Parent = character
-		originalHead.Transparency = 1
+		originalHead.Transparency = .99
+		
+		humanoid.Died:Connect(function()
+			if (cfg.fixStaticHeadOnDeath and humanoid.BreakJointsOnDeath) then
+				local modelCopy, humanoidCopy = Instance.fromExisting(character), Instance.fromExisting(humanoid)
+				humanoidCopy.Parent = modelCopy
+				newHead.Parent = modelCopy
+				originalHead.Parent = modelCopy
+				
+				character.AncestryChanged:Connect(function(_, parent)
+					if (not parent) then
+						modelCopy:Destroy()
+					end
+				end)
+				
+				modelCopy.Archivable = false
+				modelCopy.Parent = workspace.Terrain
+				if (cfg.onStaticHeadFixed) then
+					cfg.onStaticHeadFixed(modelCopy, humanoidCopy, player)
+				end
+			end
+			
+			makeWeld(newHead, originalHead, cfg.fakeHeadWeldName)
+		end)
 	else
 		newHead.Transparency = 0
 		newHead.CanCollide = true
-
-		local before = humanoid.RequiresNeck
-		humanoid.RequiresNeck = false
-		originalHead:Destroy()
 		
-		if (humanoid.Parent) then
-			humanoid.RequiresNeck = before
-		end
+		originalHead:Destroy()
+		humanoid.RequiresNeck = neckBefore
 	end
 	
 	if (cfg.viewLinksInHead and singleCompilation) then
-		newHead:SetAttribute('dependencyChain', singleCompilation.dependencyChain)
-		newHead:SetAttribute('originalUrl', singleCompilation.originalUrl)
+		newHead:SetAttribute('dependencyChain', singleCompilation.dependencyChain or 'none')
+		newHead:SetAttribute('originalUrl', singleCompilation.originalUrl or 'none')
 	end
 end
 
@@ -940,7 +964,6 @@ local function dynamicFaceCheck(character, player)
 	-- filter lists w/ the asset of a ugc item take priority over ugc support
 	-- just in case a ugc supporter abuses- then the fallback is the more-so
 	-- trustworthy filter lists
-	print(filterListCompilation)
 	for _, singleCompilation in (filterListCompilation) do
 		local targetHead = singleCompilation.dynamicHeadMap[localHead]
 		if (targetHead) then
@@ -1004,12 +1027,6 @@ local function playerAdded(player)
 	player.CharacterAdded:Connect(function(character)
 		characterAdded(player, character, false)
 	end)
-	
-	--[[task.delay(8,function()
-		while (1) do
-			applyAllFacesSequentially(player)
-		end
-	end)]]
 end
 
 local function descendantAdded(descendant)

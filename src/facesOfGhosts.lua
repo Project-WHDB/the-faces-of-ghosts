@@ -15,12 +15,13 @@ local cfg = {}
 cfg.defaultHead = 5591363797 -- default head MESH id? by default, it's the classic head
 cfg.defaultFace = 5786214012 -- default face DECAL id? by default, it's the smile
 
-cfg.useFakeHeadsInstead = no -- use fake heads? or fully replace the real head?
+cfg.useFakeHeadsInstead = yes -- use fake heads? or fully replace the real head?
 -- fake heads render faces at a higher quality. they make the real head invisible.
 -- enabling puts the player at the risk of immediate death upon spawning. it's very rare though, and might
 -- actually be fixed.
 -- with real heads, you need a long-ish delay before applying the head
 -- i recommend fake heads.
+-- their limitation is that you must manually set the camerasubject (on client) to the fake head instead of head
 
 cfg.removeUnfilteredDynamicFaces = yes -- if a dynamic head is not found in the filter list,
 -- set it to the default head and face?
@@ -75,6 +76,10 @@ cfg.viewLinksInHead = true -- for when somebody abuses this community-driven lin
 
 
 
+
+
+
+
 -------- other properties
 -- function for overriding head size
 -- @param character: the model with a humanoid and head
@@ -107,7 +112,7 @@ cfg.fixNeckRigAttachment = true -- fixes how far the head is from the neck.
 cfg.forceBreakRigsOnDeath = false -- makes character break on death if true; leaves as default if false
 -- this is completely outside the projects scope.
 
-cfg.delay = cfg.useFakeHeadsInstead and (0) or (3) -- time (seconds) (or false/nil) to wait before applying
+cfg.delay = 0--cfg.useFakeHeadsInstead and (0) or (3) -- time (seconds) (or false/nil) to wait before applying
 -- this is because a roblox bug occurs settings: (useFakeHeadsInstead=false, delay=0) where the classic face is overwritten
 -- by the dynamic face. beyond stupid.
 
@@ -118,7 +123,6 @@ cfg.specialMeshName = 'Mesh'
 cfg.fakeHeadWeldName = 'FakeHeadWeld'
 
 -------- unnecessary to change below behaviours in most games
-
 cfg.autoApplyToPlayers = true -- apply to players automatically?
 cfg.autoApplyToNonPlayableHumanoids = true -- automatically apply to other humanoids that aren't players?
 
@@ -138,8 +142,19 @@ cfg.bindHeadColorToPreviousHeadInstance = true -- bind it to the head color?
 cfg.reassignBodyColor = true -- parent the bodycolors to somewhere else, then back to character?
 -- this updates the whole figures body colors i believe.
 
-cfg.fixMisloadedBodyColor = true -- fixes a bug with body colors not loading a fully color3(0,0,0) avatar
+
+
+cfg.fixMisloadedBodyColor = true -- fixes a roblox bug with body colors not loading a fully color3(0,0,0) avatar
 cfg.recalculateOnHumanoidDescriptionApplied = true -- reapply when humanoid description is changed?
+cfg.fixStaticHeadOnDeath = true -- fixes a roblox bug where character instances welded after death (with broken joints) cease physics locally
+-- however, this will make the player name and health visible to the player on death.
+
+-- function for altering the functionality of the static head death fix.
+-- can be used to change properties of humanoid, or locally fix the health and name visibility issue
+-- @param character: the newly-created model with a humanoid, head, and a fakehead
+-- @param humanoid: the humanoid of said model
+-- @param player: the player if present
+cfg.onStaticHeadFixed = nil
 
 -- function for self-managing what humanoid receives the dynamic head changes
 -- @param dynamicFaceCheck(character, player?): the function to apply dynamic head replacing to a character
@@ -157,7 +172,7 @@ cfg.yieldFor = {
 
 cfg.retry = {
 	['getUrl'] = {
-		attempts = 3, -- how many times to try http request
+		attempts = 4, -- how many times to try http request
 		secondsPerAttempt = .2  -- first attempt takes 0 seconds, 2nd takes n seconds, 3rd takes 2n seconds, etc
 	},
 	
@@ -189,7 +204,7 @@ cfg.federateWhileCompiled = true -- federate runs even if the local/inquiring se
 cfg.recursiveLinksEnabled = true -- enable links inside any lists?
 cfg.recursiveLinksEnabledForFilterList = true
 
-cfg.version = '1.0.0' -- don't change. if the game says that you're on an outdated version,
+cfg.version = '1.1.0' -- don't change. if the game says that you're on an outdated version,
 -- download the new version of the code (the settings and main modules) from the github:
 -- https://github.com/Project-WHDB/the-faces-of-ghosts/
 cfg.versionLink = 'https://raw.githubusercontent.com/Project-WHDB/the-faces-of-ghosts/refs/heads/main/VERSION'
@@ -212,6 +227,5 @@ cfg.debug = false--onlyIfInRobloxStudio -- show warnings?
 -- works consulted
 -- https://devforum.roblox.com/t/dynamic-head-classic-face-automatic-conversion-ugc-support-early-testing/4314228
 -- https://devforum.roblox.com/t/facial-unification-convert-dynamic-heads-to-their-classic-format/4312162
-
 
 return cfg
