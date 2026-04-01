@@ -36,7 +36,10 @@ cfg.onlyUGCWithIdentifier = no -- gets rid of the identifier. just searches for 
 -- making this setting 'yes'/true is better than using identifier.
 
 cfg.lists = { -- the filter lists! every entry contains the list of id's. open a link and check one out.
-	{
+	'https://raw.githubusercontent.com/WHDB-SERIES/the-faces-of-ghosts/refs/heads/main/filters/trusted.tfogwhdb'	
+	
+	-- examples of other entries
+	--[[{
 		{dynamic=10725826963, head=431164358}
 	},
 	{
@@ -48,18 +51,15 @@ cfg.lists = { -- the filter lists! every entry contains the list of id's. open a
 			}}
 		}
 	},
-	'https://raw.githubusercontent.com/WHDB-SERIES/the-faces-of-ghosts/refs/heads/main/filters/trusted.tfogwhdb',
+	
 	{
 		list={
-			-- this list has already been retrieved so its not gonna be counted twice
+			-- this list has already been retrieved above so its not gonna be counted twice
 			'https://raw.githubusercontent.com/WHDB-SERIES/the-faces-of-ghosts/refs/heads/main/filters/trusted.tfogwhdb',
 			{dynamic=10725826959, head=431164358},
 			{dynamic=10725826958, head=431164358},
 		}
-	}
-	
-	--'https://raw.githubusercontent.com/Project-WHDB/the-faces-of-ghosts/refs/heads/main/filters/dogutsune.tfogwhdb',
-	--'https://raw.githubusercontent.com/Project-WHDB/the-faces-of-ghosts/refs/heads/main/filters/mightydantheman.tfogwhdb'
+	}]]
 } -- cfg.lists is not intended for live changes.
 
 cfg.viewLinksInHead = true -- for when somebody abuses this community-driven link system
@@ -136,7 +136,7 @@ cfg.compileOnBoot = true -- if true,
 -- then we http request the links and parse the data in cfg.lists on boot
 -- disables cfg.federate unless cfg.federateWhileCompiled is true
 
-cfg.yieldForCharacterAppearanceLoaded = true -- should we yield for player.characterAppearanceLoaded?
+cfg.yieldForCharacterAppearanceLoaded = false -- should we yield for player.characterAppearanceLoaded?
 cfg.bindHeadColorToBodyColorInstance = true -- bind it to the bodycolors instance?
 cfg.bindHeadColorToPreviousHeadInstance = true -- bind it to the head color?
 cfg.reassignBodyColor = true -- parent the bodycolors to somewhere else, then back to character?
@@ -204,7 +204,7 @@ cfg.federateWhileCompiled = true -- federate runs even if the local/inquiring se
 cfg.recursiveLinksEnabled = true -- enable links inside any lists?
 cfg.recursiveLinksEnabledForFilterList = true
 
-cfg.version = '1.1.0' -- don't change. if the game says that you're on an outdated version,
+cfg.version = '1.1.1' -- don't change. if the game says that you're on an outdated version,
 -- download the new version of the code (the settings and main modules) from the github:
 -- https://github.com/Project-WHDB/the-faces-of-ghosts/
 cfg.versionLink = 'https://raw.githubusercontent.com/Project-WHDB/the-faces-of-ghosts/refs/heads/main/VERSION'
